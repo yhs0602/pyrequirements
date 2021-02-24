@@ -1,0 +1,7 @@
+- id: pyrequirements
+  name: pyrequirements
+  entry: pip
+  language: python
+  args: ["install", "-r", "requirements.txt"]
+  require_serial: true
+  additional_dependencies: []
